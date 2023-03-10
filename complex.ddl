@@ -6,3 +6,12 @@
 /* Description: complex data type for PostgreSQL                             */
 /* License: Unlicense                                                        */
 
+
+/* Define a basic complex type -- real base */
+CREATE TYPE complex AS (
+    re real,
+    im real
+);
+
+
+
