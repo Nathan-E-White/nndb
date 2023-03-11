@@ -14,6 +14,9 @@ file(GLOB_RECURSE SOURCES "src/*.cc")
 # Include include/** files
 file(GLOB_RECURSE HEADERS "src/*.tcc")
 
+# Configure CMake to put the builds in the build directory
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/build)
+
 # Add to the executable
 add_executable(neural_dbs ${SOURCES} ${HEADERS})
 
