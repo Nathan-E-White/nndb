@@ -6,3 +6,17 @@
 /* Description: octonion data type for PostgreSQL                            */
 /* License: Unlicense                                                        */
 
+
+/**
+    * The octonian data type is a 8-dimensional vector of real numbers.
+ */
+CREATE TYPE octonian AS (
+    a real,
+    b real,
+    c real,
+    d real,
+    e real,
+    f real,
+    g real,
+    h real
+);
