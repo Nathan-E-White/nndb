@@ -1,0 +1,14 @@
+//
+// Created by Nathan White on 3/10/23.
+//
+
+#ifndef NEURAL_DBS_ABSTRACTDATABASEDRIVER_TCC
+#define NEURAL_DBS_ABSTRACTDATABASEDRIVER_TCC
+
+
+class AbstractDatabaseDriver {
+
+};
+
+
+#endif //NEURAL_DBS_ABSTRACTDATABASEDRIVER_TCC

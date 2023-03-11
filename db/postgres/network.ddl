@@ -1,7 +1,11 @@
-/* File: quaternion.ddl                                                      */
+/* File: network.ddl                                                         */
 /* Language: SQL                                                             */
 /* Dialect: PostgreSQL                                                       */
 /* Author: Nathan E White, PhD                                               */
 /* Date: Friday March 10, 2023                                               */
-/* Description: quaternion data type for PostgreSQL                          */
+/* Description: octonion data type for PostgreSQL                            */
 /* License: Unlicense                                                        */
+
+
+CREATE DATABASE network OWNER nathanwhite;
+CREATE SCHEMA network;
