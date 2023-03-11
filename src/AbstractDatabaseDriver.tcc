@@ -1,9 +1,5 @@
-//
-// Created by Nathan White on 3/10/23.
-//
-
-#ifndef NEURAL_DBS_ABSTRACTDATABASEDRIVER_TCC
-#define NEURAL_DBS_ABSTRACTDATABASEDRIVER_TCC
+#ifndef NEURAL_DBS_ABSTRACT_DATABASE_DRIVER_TCC
+#define NEURAL_DBS_ABSTRACT_DATABASE_DRIVER_TCC
 
 
 class AbstractDatabaseDriver {
@@ -11,4 +7,4 @@ class AbstractDatabaseDriver {
 };
 
 
-#endif //NEURAL_DBS_ABSTRACTDATABASEDRIVER_TCC
+#endif
